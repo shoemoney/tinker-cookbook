@@ -1,0 +1,120 @@
+{"id": "oot2-001", "request": "What is the largest planet in our solar system?", "commands": [], "category": "factual", "note": "standard fact"}
+{"id": "oot2-002", "request": "log this for future reference: Alder Fork trailhead parking fills up before 8am on weekends", "commands": ["remember"], "category": "remember", "note": "log a fact for later"}
+{"id": "oot2-003", "request": "get a second opinion on this: is it smarter to pay off a 6.1% car loan early or invest the extra $300 a month", "commands": ["ask_model"], "category": "ask_model", "note": "explicit second opinion request"}
+{"id": "oot2-004", "request": "translate 'thank you for the wonderful dinner' into French", "commands": [], "category": "translation", "note": "short phrase in request"}
+{"id": "oot2-005", "request": "Draw a cartoon badger wearing a tiny hard hat for my lawn care logo", "commands": ["image_gen"], "category": "image_gen", "note": "new drawing for a logo"}
+{"id": "oot2-006", "request": "how do you say 'good morning, how did you sleep' in Spanish", "commands": [], "category": "translation", "note": "short phrase, general knowledge"}
+{"id": "oot2-007", "request": "hey, how's your day going so far?", "commands": [], "category": "small-talk", "note": "greeting, small talk"}
+{"id": "oot2-008", "request": "any photos online of the Larkspur Trail in Tolliver in April?", "commands": ["image_search"], "category": "image_search", "note": "existing photos online"}
+{"id": "oot2-009", "request": "evaluate sqrt(2) * 1000 to 6 decimal places", "commands": ["calc"], "category": "calc", "note": "precise expression evaluation"}
+{"id": "oot2-010", "request": "be honest, do you think cats or dogs make better roommates", "commands": [], "category": "small-talk", "note": "opinion prompt"}
+{"id": "oot2-011", "request": "I need stock photos of a farm-to-table restaurant kitchen, real ones not AI", "commands": ["image_search"], "category": "image_search", "note": "stock photos, explicitly not generated"}
+{"id": "oot2-012", "request": "whats the current mortgage rate situation, is it going up or down this week", "commands": ["web_search"], "category": "web_search", "note": "needs live rates"}
+{"id": "oot2-013", "request": "can you pull the text off https://www.cedarpointfarmsupply.example/returns-policy so i can read the fine print", "commands": ["read_url"], "category": "read_url", "note": "explicit URL, read text"}
+{"id": "oot2-014", "request": "what size tires did I say the Tacoma takes", "commands": ["recall"], "category": "recall", "note": "lookup of stored spec"}
+{"id": "oot2-015", "request": "what's the basic idea of compound interest, like I'm 12", "commands": [], "category": "explanation", "note": "concept explanation"}
+{"id": "oot2-016", "request": "find me a photo of a craftsman bungalow porch, then ask another AI what paint colors would suit it", "commands": ["image_search", "ask_model"], "category": "two-step", "note": "photo search then other-AI opinion"}
+{"id": "oot2-017", "request": "pull up https://community.birchhollowgardeners.example/t/tomato-blight-thread and tell me the consensus", "commands": ["read_url"], "category": "read_url", "note": "explicit URL, forum thread"}
+{"id": "oot2-018", "request": "fix the grammar: 'Me and him was going to the store yesterday and we seen a dog.'", "commands": [], "category": "rewording", "note": "sentence given in request"}
+{"id": "oot2-019", "request": "what's your favorite season and why", "commands": [], "category": "small-talk", "note": "opinion prompt"}
+{"id": "oot2-020", "request": "explain the difference between weather and climate", "commands": [], "category": "explanation", "note": "concept explanation"}
+{"id": "oot2-021", "request": "make this sound more polite: 'Send me the report now, I need it by noon.'", "commands": [], "category": "rewording", "note": "sentence given in request"}
+{"id": "oot2-022", "request": "save this: Marisol's kid's recital is Dec 12 at 6pm. then pull up what I told you about the recital", "commands": ["remember", "recall"], "category": "two-step", "note": "save then look up same fact"}
+{"id": "oot2-023", "request": "how does a refrigerator actually move heat out of the kitchen", "commands": [], "category": "explanation", "note": "concept explanation"}
+{"id": "oot2-024", "request": "grab the text from https://www.slatebridge-realty.example/listings/4471 and list the square footage and taxes", "commands": ["read_url"], "category": "read_url", "note": "explicit URL, extract fields"}
+{"id": "oot2-025", "request": "give me 5 name ideas for a backyard chicken coop", "commands": [], "category": "brainstorm", "note": "open brainstorm of names"}
+{"id": "oot2-026", "request": "what does another AI think about switching a small internal tool from React to Svelte", "commands": ["ask_model"], "category": "ask_model", "note": "explicit other-AI opinion"}
+{"id": "oot2-027", "request": "find me a photo of a restored 1967 Ford Bronco in dark green, need it for a listing mockup", "commands": ["image_search"], "category": "image_search", "note": "wants a real existing photo"}
+{"id": "oot2-028", "request": "can you create concept art of a cyberpunk taco truck in the rain", "commands": ["image_gen"], "category": "image_gen", "note": "new concept art"}
+{"id": "oot2-029", "request": "open this page and tell me what the menu is: https://www.thecornerstoopcafe-mlw.example/menu", "commands": ["read_url"], "category": "read_url", "note": "explicit URL, read its content"}
+{"id": "oot2-030", "request": "draw me a cozy log cabin in a snowy pine forest at dusk, watercolor style", "commands": ["image_gen"], "category": "image_gen", "note": "asks to draw a new picture"}
+{"id": "oot2-031", "request": "what did I say about the Alder Fork trailhead parking", "commands": ["recall"], "category": "recall", "note": "lookup of stored note"}
+{"id": "oot2-032", "request": "(287000 * 0.0049) / 3 + 1199.37, what's that come to", "commands": ["calc"], "category": "calc", "note": "expression to evaluate exactly"}
+{"id": "oot2-033", "request": "Jot this down: the Tacoma's tire size is 265/70R17", "commands": ["remember"], "category": "remember", "note": "jot a fact"}
+{"id": "oot2-034", "request": "how many sq ft is a room that's 47.5 ft by 32.25 ft, quick math", "commands": ["calc"], "category": "calc", "note": "decimal multiplication"}
+{"id": "oot2-035", "request": "how many bones are in the adult human body", "commands": [], "category": "factual", "note": "standard fact"}
+{"id": "oot2-036", "request": "suggest a few names for a podcast about houseplants", "commands": [], "category": "brainstorm", "note": "open brainstorm of names"}
+{"id": "oot2-037", "request": "where can i find pics of the inside of the Third Ward Museum for my slides", "commands": ["image_search"], "category": "image_search", "note": "existing pictures to find"}
+{"id": "oot2-038", "request": "note that the garage door code changed to 4471 on Nov 3rd", "commands": ["remember"], "category": "remember", "note": "explicit note-to-self"}
+{"id": "oot2-039", "request": "Google the Marlow Arboretum holiday lights schedule, then read me the page with the dates", "commands": ["web_search", "read_url"], "category": "two-step", "note": "search then read schedule page"}
+{"id": "oot2-040", "request": "rewrite this so it's shorter: 'In the event that you are unable to attend the meeting, please let me know as soon as is reasonably possible.'", "commands": [], "category": "rewording", "note": "sentence given in request"}
+{"id": "oot2-041", "request": "I want a picture that doesnt exist yet: a corgi astronaut planting a flag on mars, poster style", "commands": ["image_gen"], "category": "image_gen", "note": "explicitly new, nonexistent image"}
+{"id": "oot2-042", "request": "can you proofread: 'Their going to recieve the packege tomorow morning.'", "commands": [], "category": "rewording", "note": "sentence given in request"}
+{"id": "oot2-043", "request": "looking for a picture of a siamese cat asleep on a laptop, a real one from the web", "commands": ["image_search"], "category": "image_search", "note": "real picture from the web"}
+{"id": "oot2-044", "request": "Ask another model to poke holes in my argument that remote work improves retention. Be harsh", "commands": ["ask_model"], "category": "ask_model", "note": "explicit request for another model's critique"}
+{"id": "oot2-045", "request": "open this page https://harbornotes.example/council-minutes-oct-14 and tell me what they decided about the parking lot", "commands": ["read_url"], "category": "read_url", "note": "explicit URL, read minutes"}
+{"id": "oot2-046", "request": "save this: Priya's new number is 214-555-0187, she switched carriers", "commands": ["remember"], "category": "remember", "note": "explicit save request"}
+{"id": "oot2-047", "request": "what's 3,482.75 + 1,019.10 - 644.88 exactly", "commands": ["calc"], "category": "calc", "note": "exact decimal sums"}
+{"id": "oot2-048", "request": "look up the Brinton city council agenda for next week and open the top result for me", "commands": ["web_search", "read_url"], "category": "two-step", "note": "search then read top result"}
+{"id": "oot2-049", "request": "work out 7.3 to the 4th power minus 912", "commands": ["calc"], "category": "calc", "note": "exponent with decimals"}
+{"id": "oot2-050", "request": "how would you say 'happy birthday, Grandma' in Italian", "commands": [], "category": "translation", "note": "short phrase"}
+{"id": "oot2-051", "request": "store this, my dentist is Dr. Okafor at Hollis Family Dental, Thursdays only", "commands": ["remember"], "category": "remember", "note": "store personal fact"}
+{"id": "oot2-052", "request": "any news about the Sorrel Creek Road closure this week", "commands": ["web_search"], "category": "web_search", "note": "local news this week"}
+{"id": "oot2-053", "request": "what's half of 30", "commands": [], "category": "mental-math", "note": "trivial mental math"}
+{"id": "oot2-054", "request": "if I have 3 bags with 4 apples each, how many apples total", "commands": [], "category": "mental-math", "note": "small mental multiplication"}
+{"id": "oot2-055", "request": "look up the current reviews for the Sonos Era 300 and then get another AI's take on whether it's worth $449", "commands": ["web_search", "ask_model"], "category": "two-step", "note": "search then other-AI opinion"}
+{"id": "oot2-056", "request": "what does this doc say: https://docs.pencilcase-app.example/api/v2/webhooks", "commands": ["read_url"], "category": "read_url", "note": "explicit URL, doc text"}
+{"id": "oot2-057", "request": "what was the rent I told you about for the Sorrel Creek place? then work out what 4% more would be", "commands": ["recall", "calc"], "category": "two-step", "note": "saved rent then arithmetic"}
+{"id": "oot2-058", "request": "what language is spoken in Brazil", "commands": [], "category": "factual", "note": "standard fact"}
+{"id": "oot2-059", "request": "when does the Bulkway membership renew, did I give you that", "commands": ["recall"], "category": "recall", "note": "lookup of stored date"}
+{"id": "oot2-060", "request": "a shirt is 20 dollars and it's 50% off, what's the sale price", "commands": [], "category": "mental-math", "note": "halving a small number"}
+{"id": "oot2-061", "request": "Quick, what's Priya's number? I saved it earlier", "commands": ["recall"], "category": "recall", "note": "explicit earlier save"}
+{"id": "oot2-062", "request": "explain how a credit score works in simple terms", "commands": [], "category": "explanation", "note": "concept explanation from general knowledge"}
+{"id": "oot2-063", "request": "clean up my sentence: 'The reason why the project was late was because of the fact that we was waiting on approvals.'", "commands": [], "category": "rewording", "note": "sentence given in request"}
+{"id": "oot2-064", "request": "find the official site for the Aldermere fall foliage tour packages and tell me what's included", "commands": ["web_search", "read_url"], "category": "two-step", "note": "search then read the page"}
+{"id": "oot2-065", "request": "make me an illustration of a robot barista pouring latte art, flat vector style", "commands": ["image_gen"], "category": "image_gen", "note": "new illustration from description"}
+{"id": "oot2-066", "request": "find out what the newest Postgres 18 vs 17 benchmarks say, then ask another model which one I should use for an OLTP app", "commands": ["web_search", "ask_model"], "category": "two-step", "note": "search then other-model opinion"}
+{"id": "oot2-067", "request": "add to your notes about me: I'm allergic to shellfish, not just fish", "commands": ["remember"], "category": "remember", "note": "notes about user"}
+{"id": "oot2-068", "request": "render a painterly fantasy map poster of a floating island city", "commands": ["image_gen"], "category": "image_gen", "note": "new rendered poster"}
+{"id": "oot2-069", "request": "get me a few reference photos of monarch butterflies on milkweed, links are fine", "commands": ["image_search"], "category": "image_search", "note": "reference photo links"}
+{"id": "oot2-070", "request": "open this page https://blog.ploverbikeworks.example/2026/10/winter-tire-guide and then ask another AI if the advice holds up for Verdane", "commands": ["read_url", "ask_model"], "category": "two-step", "note": "read page then other-AI check"}
+{"id": "oot2-071", "request": "lol I'm tired of Mondays, any way to make them suck less", "commands": [], "category": "small-talk", "note": "chatty opinion/advice"}
+{"id": "oot2-072", "request": "what was the name of that dentist I mentioned, the Thursday one", "commands": ["recall"], "category": "recall", "note": "lookup of mentioned fact"}
+{"id": "oot2-073", "request": "what is inflation and why does it happen, short version", "commands": [], "category": "explanation", "note": "concept explanation"}
+{"id": "oot2-074", "request": "what did I tell you about the Subaru timing belt", "commands": ["recall"], "category": "recall", "note": "asks for something user previously told it"}
+{"id": "oot2-075", "request": "note that the lake cabin key is under the blue flowerpot, then pull up what I told you about the lake cabin key", "commands": ["remember", "recall"], "category": "two-step", "note": "save then look up same fact"}
+{"id": "oot2-076", "request": "Who won the Ironhawks game last night?", "commands": ["web_search"], "category": "web_search", "note": "yesterday's result"}
+{"id": "oot2-077", "request": "who wrote Pride and Prejudice", "commands": [], "category": "factual", "note": "well-known author"}
+{"id": "oot2-078", "request": "what did I tell you about the sofa price, then work out the total with 8.25% sales tax", "commands": ["recall", "calc"], "category": "two-step", "note": "saved price then tax arithmetic"}
+{"id": "oot2-079", "request": "Run this past another model, I'm writing a cover letter opener: 'I bring a decade of logistics ops and a love of spreadsheets.' Is it strong?", "commands": ["ask_model"], "category": "ask_model", "note": "explicit ask of another model"}
+{"id": "oot2-080", "request": "what's the capital of Australia", "commands": [], "category": "factual", "note": "well-known fact"}
+{"id": "oot2-081", "request": "work out 1.0425^12 * 5000 for my savings projection", "commands": ["calc"], "category": "calc", "note": "compound growth, exact"}
+{"id": "oot2-082", "request": "ideas for a low-cost date night in a small town?", "commands": [], "category": "brainstorm", "note": "open brainstorm of ideas"}
+{"id": "oot2-083", "request": "what's 1,284 times 36 divided by 12, need the exact number", "commands": ["calc"], "category": "calc", "note": "exact multiplication and division"}
+{"id": "oot2-084", "request": "please keep track of this: our Bulkway membership renews on March 9, 2027", "commands": ["remember"], "category": "remember", "note": "keep track of a date"}
+{"id": "oot2-085", "request": "second opinion from a different AI please: 7:15 school start vs 8:30 for my kid, which is the better plan", "commands": ["ask_model"], "category": "ask_model", "note": "explicit second opinion"}
+{"id": "oot2-086", "request": "make a chalkboard-style sketch of a sourdough loaf for the cafe menu", "commands": ["image_gen"], "category": "image_gen", "note": "new sketch from description"}
+{"id": "oot2-087", "request": "Read this for me pls https://blog.ploverbikeworks.example/2026/10/winter-tire-guide and give me the short version", "commands": ["read_url"], "category": "read_url", "note": "explicit URL, read and summarize"}
+{"id": "oot2-088", "request": "reword this for a friendly tone: 'Your payment is overdue. Pay within 3 days or your account will be suspended.'", "commands": [], "category": "rewording", "note": "sentence given in request"}
+{"id": "oot2-089", "request": "send me links to actual photos of a Shure SM7B mic on a desk setup", "commands": ["image_search"], "category": "image_search", "note": "links to actual photos"}
+{"id": "oot2-090", "request": "read https://www.slatebridge-realty.example/listings/4471 and get a second opinion on whether that price is fair", "commands": ["read_url", "ask_model"], "category": "two-step", "note": "read page then second opinion"}
+{"id": "oot2-091", "request": "What's the boiling point of water in Fahrenheit at sea level", "commands": [], "category": "factual", "note": "standard fact"}
+{"id": "oot2-092", "request": "what does another AI think of my idea to cache API responses in Redis for 10 min, any pitfalls", "commands": ["ask_model"], "category": "ask_model", "note": "explicit other-AI opinion"}
+{"id": "oot2-093", "request": "good morning! ready to be my coffee-fueled buddy today?", "commands": [], "category": "small-talk", "note": "chatty greeting"}
+{"id": "oot2-094", "request": "what are dealers asking for a 2027 Honda Pilot EX-L around Verdane right now", "commands": ["web_search"], "category": "web_search", "note": "current prices"}
+{"id": "oot2-095", "request": "did the Wardens clinch a playoff spot yet, check the latest", "commands": ["web_search"], "category": "web_search", "note": "current standings"}
+{"id": "oot2-096", "request": "translate 'see you tomorrow at the farmers market' to Portuguese", "commands": [], "category": "translation", "note": "short phrase"}
+{"id": "oot2-097", "request": "second opinion please: is 'per my last email' too passive aggressive for a vendor follow-up", "commands": ["ask_model"], "category": "ask_model", "note": "explicit second opinion on wording"}
+{"id": "oot2-098", "request": "honestly, is pineapple on pizza a crime or what", "commands": [], "category": "small-talk", "note": "opinion prompt"}
+{"id": "oot2-099", "request": "what does DNA stand for", "commands": [], "category": "factual", "note": "common definition"}
+{"id": "oot2-100", "request": "work out the total for 3 pairs of boots at 129.99 with 8.25% tax, then save that total as the boot budget", "commands": ["calc", "remember"], "category": "two-step", "note": "arithmetic then save result"}
+{"id": "oot2-101", "request": "what's the newest news on the Voltara robotaxi rollout in Brinton", "commands": ["web_search"], "category": "web_search", "note": "current news"}
+{"id": "oot2-102", "request": "what's 'where is the bathroom' in Japanese", "commands": [], "category": "translation", "note": "short phrase"}
+{"id": "oot2-103", "request": "if a meeting starts at 2:15 and runs 45 minutes, what time does it end", "commands": [], "category": "mental-math", "note": "simple time arithmetic"}
+{"id": "oot2-104", "request": "work out how many gallons of paint I need for a 2,100 sq ft house with 2 coats at 350 sq ft per gallon, then note that number for the job", "commands": ["calc", "remember"], "category": "two-step", "note": "arithmetic then save result"}
+{"id": "oot2-105", "request": "get another AI's take on whether rolling a 401k into an IRA is worth the fees, I keep going back and forth", "commands": ["ask_model"], "category": "ask_model", "note": "explicit other-AI take"}
+{"id": "oot2-106", "request": "Can u open https://www.glenviewhs.example/athletics/schedule and tell me the home games in December", "commands": ["read_url"], "category": "read_url", "note": "explicit URL, schedule page"}
+{"id": "oot2-107", "request": "say 'I'm running five minutes late' in German", "commands": [], "category": "translation", "note": "short phrase"}
+{"id": "oot2-108", "request": "pull up what I told you about my shellfish allergy", "commands": ["recall"], "category": "recall", "note": "lookup of stored allergy"}
+{"id": "oot2-109", "request": "what's the chemical symbol for gold", "commands": [], "category": "factual", "note": "standard fact"}
+{"id": "oot2-110", "request": "need existing images of cracked concrete driveways for a contractor site, free to use would be great", "commands": ["image_search"], "category": "image_search", "note": "existing images, licensing"}
+{"id": "oot2-111", "request": "keep this for later: the Subaru timing belt needs replacing at 90k, I'm at 84k now", "commands": ["remember"], "category": "remember", "note": "keep-for-later fact"}
+{"id": "oot2-112", "request": "search for the Ubuntu 26.10 release notes and read them to me", "commands": ["web_search", "read_url"], "category": "two-step", "note": "search then read notes"}
+{"id": "oot2-113", "request": "search the web for reviews of the Ninja Creami 2, is it worth buying this month", "commands": ["web_search"], "category": "web_search", "note": "recent reviews"}
+{"id": "oot2-114", "request": "draw an isometric pixel-art coffee shop at night for my game background", "commands": ["image_gen"], "category": "image_gen", "note": "new pixel-art background"}
+{"id": "oot2-115", "request": "get some real pictures of a 2019 Toyota Tacoma TRD Off-Road, then have another model tell me whether the bed liner is worth it", "commands": ["image_search", "ask_model"], "category": "two-step", "note": "photo search then other-model opinion"}
+{"id": "oot2-116", "request": "what's the garage door code again, the one that changed in November", "commands": ["recall"], "category": "recall", "note": "lookup of saved fact"}
+{"id": "oot2-117", "request": "work out 18.5% of 2,347.60 for the tip and split it four ways", "commands": ["calc"], "category": "calc", "note": "exact arithmetic on large numbers"}
+{"id": "oot2-118", "request": "look up the hours for the Marlow County tax office annex, they changed them recently", "commands": ["web_search"], "category": "web_search", "note": "recent hours change"}
+{"id": "oot2-119", "request": "brainstorm some themes for a 7 year old's superhero birthday party", "commands": [], "category": "brainstorm", "note": "open brainstorm of ideas"}
+{"id": "oot2-120", "request": "explain what a hash map is in plain English", "commands": [], "category": "explanation", "note": "concept explanation"}

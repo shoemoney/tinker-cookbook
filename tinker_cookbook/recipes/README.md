@@ -38,6 +38,7 @@ We provide the following examples:
 - **[Self-Distillation Fine-Tuning (SDFT)](./sdft/)**: self-distillation via top-K forward KL loss without a separate teacher deployment.
 - **[True Thinking Score (TTS)](./true_thinking_score/)**: quantify the faithfulness of chain-of-thought reasoning to the model's final answer.
 - **[Decision model](./decisions/)**: get a probability distribution over choices in response to a question
+- **[Trained tools](./trained_tools/)**: fine-tune a model to call a small fixed set of commands without tool descriptions in its prompt, compared with native tool declaration and a cheat sheet.
 
 These examples are located in each subfolder, and their `README.md` file will walk you through the key implementation details, the commands to run them, and the expected performance.
 
